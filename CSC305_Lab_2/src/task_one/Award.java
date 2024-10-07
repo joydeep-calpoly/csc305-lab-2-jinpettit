@@ -1,8 +1,8 @@
-package task1;
+package task_one;
 
-public class Award {
-    private String name;
-    private int year;
+class Award {
+    private final String name;
+    private final int year;
 
     public Award(String name, int year) {
         this.name = name;
